@@ -76,10 +76,69 @@ const myNumber = "10";
 // console.log(typeof +myNumber);
 
 //falsy values(null,undefined,false,',0,NaN)
-
 // const myNUm = "";
 // if (myNUm) {
 //   console.log("truthy");
 // } else {
 //   console.log("falsy");
 // }
+
+//switch case
+// const day = "friday";
+// switch (day) {
+//   case "friday":
+//     console.log("has class");
+//     break;
+//   case "saturday":
+//     console.log("no class");
+//     break;
+//   default:
+//     console.log("nothing");
+// }
+
+// for loop, while loop,do while
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i); //event
+//   } else {
+//     console.log("odd");
+//   }
+// }
+
+//break
+// for (let i = 0; i <= 100; i++) {
+//   if (i === 50) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+//continue
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+//while loop
+// const arr = [10, 29, 28, 23, 4, 5, 6, 56];
+// let sum = 0;
+
+// let i = 0;
+// while (i <= arr.length - 1) {
+//   sum += arr[i];
+
+//   i++;
+// }
+// console.log(sum);
+
+//do...while
+// const arr = [10, 29, 28, 23, 4, 5, 6, 56];
+// let sum = 0;
+// let i = 0;
+// do {
+//   sum += arr[i];
+//   i++;
+// } while (i <= arr.length - 1);
+// console.log(sum);
