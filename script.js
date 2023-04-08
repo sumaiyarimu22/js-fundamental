@@ -142,3 +142,23 @@ const myNumber = "10";
 //   i++;
 // } while (i <= arr.length - 1);
 // console.log(sum);
+
+//arrays
+const arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
+// console.log(arr[2]);
+// console.log(arr.at(-1));
+// //last el
+// console.log(arr[arr.length - 1]);
+// console.log(arr.at(-1));
+
+// console.log(arr.indexOf(0));
+// console.log(arr.includes(5));
+
+//objects
+const students = {
+  name: "shohan",
+  roll: 135,
+};
+console.log(students.roll);
+console.log(students["roll"]);
